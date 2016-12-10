@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<StandartGCR>
+ <Patient group="6-7 лет" age_min="6" age_max="7" >
+  <Situation number="1"  add=""></Situation>
+  <Situation number="2"  add="">E</Situation>
+  <Situation number="3"  add=""></Situation>
+  <Situation number="4"  add=""></Situation>
+  <Situation number="5"  add=""></Situation>
+  <Situation number="6"  add=""></Situation>
+  <Situation number="7"  add="">I</Situation>
+  <Situation number="8"  add=""></Situation>
+  <Situation number="9"  add=""></Situation>
+  <Situation number="10" add="M'">E</Situation>
+  <Situation number="11" add=""></Situation>
+  <Situation number="12" add="">E</Situation>
+  <Situation number="13" add="">E</Situation>
+  <Situation number="14" add="">M'</Situation>
+  <Situation number="15" add="">I'</Situation>
+  <Situation number="16" add=""></Situation>
+  <Situation number="17" add=""></Situation>
+  <Situation number="18" add=""></Situation>
+  <Situation number="19" add="">E</Situation>
+  <Situation number="20" add=""></Situation>
+  <Situation number="21" add=""></Situation>
+  <Situation number="22" add="">I</Situation>
+  <Situation number="23" add=""></Situation>
+  <Situation number="24" add="">m</Situation>
+ </Patient>
+
+
+ <Patient group="8-9 лет" age_min="8" age_max="9">
+  <Situation number="1"  add=""></Situation>
+  <Situation number="2"  add="m">E</Situation>
+  <Situation number="3"  add="">E</Situation>
+  <Situation number="4"  add=""></Situation>
+  <Situation number="5"  add=""></Situation>
+  <Situation number="6"  add=""></Situation>
+  <Situation number="7"  add="">I</Situation>
+  <Situation number="8"  add="">I</Situation>
+  <Situation number="9"  add=""></Situation>
+  <Situation number="10" add=""></Situation>
+  <Situation number="11" add=""></Situation>
+  <Situation number="12" add="">E</Situation>
+  <Situation number="13" add="">E</Situation>
+  <Situation number="14" add="">M'</Situation>
+  <Situation number="15" add=""></Situation>
+  <Situation number="16" add="">E</Situation>
+  <Situation number="17" add="">M</Situation>
+  <Situation number="18" add=""></Situation>
+  <Situation number="19" add="I">E</Situation>
+  <Situation number="20" add=""></Situation>
+  <Situation number="21" add=""></Situation>
+  <Situation number="22" add="">I</Situation>
+  <Situation number="23" add=""></Situation>
+  <Situation number="24" add="">m</Situation>
+ </Patient>
+ 
+ 
+ <Patient group="10-11 лет" age_min="10" age_max="11">
+  <Situation number="1"  add=""></Situation>
+  <Situation number="2"  add="">m</Situation>
+  <Situation number="3"  add=""></Situation>
+  <Situation number="4"  add=""></Situation>
+  <Situation number="5"  add=""></Situation>
+  <Situation number="6"  add=""></Situation>
+  <Situation number="7"  add="">I</Situation>
+  <Situation number="8"  add="i">I</Situation>
+  <Situation number="9"  add=""></Situation>
+  <Situation number="10" add=""></Situation>
+  <Situation number="11" add=""></Situation>
+  <Situation number="12" add="">E</Situation>
+  <Situation number="13" add=""></Situation>
+  <Situation number="14" add="">M'</Situation>
+  <Situation number="15" add="M'">E'</Situation>
+  <Situation number="16" add="E">M'</Situation>
+  <Situation number="17" add="">m</Situation>
+  <Situation number="18" add=""></Situation>
+  <Situation number="19" add="I">E</Situation>
+  <Situation number="20" add="">i</Situation>
+  <Situation number="21" add=""></Situation>
+  <Situation number="22" add="">I</Situation>
+  <Situation number="23" add=""></Situation>
+  <Situation number="24" add="">m</Situation>
+ </Patient>
+ 
+ 
+ <Patient group="12-13 лет" age_min="12" age_max="13">
+  <Situation number="1"  add=""></Situation>
+  <Situation number="2"  add="">M</Situation>
+  <Situation number="3"  add="M">E</Situation>
+  <Situation number="4"  add=""></Situation>
+  <Situation number="5"  add=""></Situation>
+  <Situation number="6"  add=""></Situation>
+  <Situation number="7"  add="">I</Situation>
+  <Situation number="8"  add="i">I</Situation>
+  <Situation number="9"  add=""></Situation>
+  <Situation number="10" add="">M</Situation>
+  <Situation number="11" add="m">I</Situation>
+  <Situation number="12" add="">E</Situation>
+  <Situation number="13" add="">I</Situation>
+  <Situation number="14" add="">M'</Situation>
+  <Situation number="15" add="">M'</Situation>
+  <Situation number="16" add="">M'</Situation>
+  <Situation number="17" add="m">e</Situation>
+  <Situation number="18" add=""></Situation>
+  <Situation number="19" add=""></Situation>
+  <Situation number="20" add="">I</Situation>
+  <Situation number="21" add=""></Situation>
+  <Situation number="22" add="">I</Situation>
+  <Situation number="23" add=""></Situation>
+  <Situation number="24" add="">M</Situation>
+ </Patient>
+ 
+ 
+ <Patient group="Взрослый" age_min="14" age_max="999">
+  <Situation number="1"  add="E">M'</Situation>
+  <Situation number="2"  add="">I</Situation>
+  <Situation number="3"  add=""></Situation>
+  <Situation number="4"  add=""></Situation>
+  <Situation number="5"  add="">i</Situation>
+  <Situation number="6"  add="">e</Situation>
+  <Situation number="7"  add="">E</Situation>
+  <Situation number="8"  add=""></Situation>
+  <Situation number="9"  add=""></Situation>
+  <Situation number="10" add="">E</Situation>
+  <Situation number="11" add=""></Situation>
+  <Situation number="12" add="m">E</Situation>
+  <Situation number="13" add="">e</Situation>
+  <Situation number="14" add=""></Situation>
+  <Situation number="15" add="">E'</Situation>
+  <Situation number="16" add="i">E</Situation>
+  <Situation number="17" add=""></Situation>
+  <Situation number="18" add="e">E'</Situation>
+  <Situation number="19" add="">I</Situation>
+  <Situation number="20" add=""></Situation>
+  <Situation number="21" add=""></Situation>
+  <Situation number="22" add="">M'</Situation>
+  <Situation number="23" add=""></Situation>
+  <Situation number="24" add="">M'</Situation>
+ </Patient>
+</StandartGCR>

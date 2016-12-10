@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<GUI name="Тест Розенцвейга">
+ <Screen number="1001">
+
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\Main.jpg</Image>
+
+  <Label posX="490" posY="50" width="450" height="100">
+   Этот тест предназначен для возрастной категории от 6 лет. 
+   В нем Вам будут показаны 24 рисунка. На каждом из них изображены два говорящих человека. 
+   То, что говорит первый человек, написано в квадрате слева. Представьте себе, что может ответить другой человек. 
+   Выберите один из вариантов ответа, который Вы посчитаете нужным.
+  </Label>
+
+  <Label posX="490" posY="170" width="450" height="40">
+   Старайтесь работать как можно быстрее. Отнеситесь к заданию серьезно и не отделывайтесь шуткой.
+  </Label>
+
+  <Label posX="490" posY="260" width="450" height="25">
+   Пожалуйста, введите Ваш ФИО и возраст перед прохождением теста:
+  </Label>
+  
+  <TextField id="name" length="40" posX="560" posY="320" width="240" height="25">ФИО</TextField> 
+ 
+  <TextField id="age" length="2" posX="820" posY="320" width="30" height="25">6</TextField>
+
+  <Label posX="860" posY="320" width="30" height="25">
+   лет
+  </Label>
+
+  <Button command="startTest" posX="580" posY="400" width="250" height="20">Начать тест</Button>
+ </Screen> 
+
+
+ <Screen number="2001">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\1.jpg</Image>
+
+  <Label posX="490" posY="20" width="450" height="60">
+   Мне очень жаль, что мы забрызгали Ваш костюм, хотя так старались объехать лужу.
+  </Label>
+  
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Какая неудача!</RadioButton>
+   <RadioButton>Да пошел ты на ...!</RadioButton>
+   <RadioButton>Тогда уж подвезите меня</RadioButton>
+   <RadioButton>Ничего, я как раз собирался его чистить</RadioButton>
+   <RadioButton>Я сам виноват -- шел слишком близко к шоссе</RadioButton>
+   <RadioButton>Ничего, я почищу</RadioButton>
+   <RadioButton>А, ерунда!</RadioButton>
+   <RadioButton>Да ничего, бывает</RadioButton>
+   <RadioButton>Как-нибудь переживем</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+ <Screen number="2002">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\2.jpg</Image>
+
+  <Label posX="490" posY="20" width="450" height="60">
+   Это ужасно! Вы разбили любимую вазу моей матери.
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Ой, что же делать?!</RadioButton>
+   <RadioButton>Не надо ставить куда попало</RadioButton>
+   <RadioButton>Может быть, вы что-нибудь придумаете?</RadioButton>
+   <RadioButton>Зато Вы наконец-то обратили на меня внимание</RadioButton>
+   <RadioButton>Какой я неловкий, простите, пожалуйста</RadioButton>
+   <RadioButton>Я возмещу ее стоимость или куплю другую</RadioButton>
+   <RadioButton>Не стоит так огорчаться</RadioButton>
+   <RadioButton>Это произошло случайно</RadioButton>
+   <RadioButton>Успокойтесь, все образуется</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2003">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\3.jpg</Image>
+
+  <Label posX="490" posY="20" width="450" height="60">
+   Вам же не видно экрана!
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Действительно, очень неудобно</RadioButton>
+   <RadioButton>Женщина, вы здесь не одна</RadioButton>
+   <RadioButton>Простите, не могли бы вы снять шляпу?</RadioButton>
+   <RadioButton>Ничего, буду смотреть на вас</RadioButton>
+   <RadioButton>Зря я сразу не пересел</RadioButton>
+   <RadioButton>Я, пожалуй пересяду</RadioButton>
+   <RadioButton>Да нет, все нормально</RadioButton>
+   <RadioButton>Что поделаешь</RadioButton>
+   <RadioButton>Надеюсь, догадается снять сама</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2004">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\4.jpg</Image>
+
+  <Label posX="490" posY="20" width="450" height="60">
+   Как обидно, что моя машина сломалась, и Вы из-за этого опоздали на поезд
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Надо же, как не везет!</RadioButton>
+   <RadioButton>Это все из-за Вас!</RadioButton>
+   <RadioButton>Как же мне теперь уехать?</RadioButton>
+   <RadioButton>Хорошо, до следующего поезда я кое-что успею</RadioButton>
+   <RadioButton>Я должен был это предусмотреть</RadioButton>
+   <RadioButton>Сейчас поменяю билет</RadioButton>
+   <RadioButton>Ничего, это не проблема</RadioButton>
+   <RadioButton>Всякое случается</RadioButton>
+   <RadioButton>Сейчас что-нибудь придумаем</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2005">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\5.jpg</Image>
+  <Label posX="490" posY="20" width="450" height="60">
+   Вот уже третий раз я прихожу к вам с этими часами. Я их купила всего неделю назад, 
+   но как только приношу их домой, они останавливаются.
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Очень жаль</RadioButton>
+   <RadioButton>Вы не умеете пользоваться ими</RadioButton>
+   <RadioButton>Вам следует обменять их</RadioButton>
+   <RadioButton>Зато я увидел Вас снова</RadioButton>
+   <RadioButton>Извините, видимо я что-то не досмотрел</RadioButton>
+   <RadioButton>Хорошо, я займусь ими лично</RadioButton>
+   <RadioButton>Не стоит так волноваться</RadioButton>
+   <RadioButton>Это бывает</RadioButton>
+   <RadioButton>Посмотрим, посмотрим</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2006">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\6.jpg</Image>
+
+  <Label posX="490" posY="20" width="450" height="60">
+   Согласно библиотечным правилам Вы можете брать одновременно только две книги.
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Какие нелепые правила!</RadioButton>
+   <RadioButton>Совсем не думаете о людях</RadioButton>
+   <RadioButton>Может, разрешите все-таки взять больше</RadioButton>
+   <RadioButton>Возможно, это к лучшему -- теперь они поместятся в сумку</RadioButton>
+   <RadioButton>Извините, я забыла</RadioButton>
+   <RadioButton>Я обещаю сдать их все в срок</RadioButton>
+   <RadioButton>Ну две, так две</RadioButton>
+   <RadioButton>Правила есть правила</RadioButton>
+   <RadioButton>Что ж, обойдусь и двумя</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2007">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\7.jpg</Image>
+
+  <Label posX="490" posY="20" width="450" height="60">
+   Не слишком ли Вы шумите?
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Да, неприятная получилась ситуация</RadioButton>
+   <RadioButton>А почему я Вас должен так долго ждать?!</RadioButton>
+   <RadioButton>Обслужите меня, пожалуйста</RadioButton>
+   <RadioButton>Возможно, спасибо за предупреждение</RadioButton>
+   <RadioButton>Простите, виноват</RadioButton>
+   <RadioButton>Понял, учту</RadioButton>
+   <RadioButton>Все нормально</RadioButton>
+   <RadioButton>Ничего, бывает</RadioButton>
+   <RadioButton>Сейчас все будет нормально</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2008">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\8.jpg</Image>
+
+  <Label posX="490" posY="20" width="450" height="60">
+   Твоя подруга меня пригласила сегодня вечером на танцы. Она сказала, что ты не пойдешь.
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Не может быть!</RadioButton>
+   <RadioButton>Такой подлости я от Вас не ожидал!</RadioButton>
+   <RadioButton>Решай сам</RadioButton>
+   <RadioButton>Ну и хорошо, буду знать что за подруга</RadioButton>
+   <RadioButton>Я должен был жто предвидеть!</RadioButton>
+   <RadioButton>Я сам с ней разберусь</RadioButton>
+   <RadioButton>Да, я вечером занят</RadioButton>
+   <RadioButton>Это ее дело</RadioButton>
+   <RadioButton>Посмотрим</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2009">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\9.jpg</Image>
+
+  <Label posX="490" posY="20" width="450" height="60">
+   Я понимаю, что Вам нужен Ваш плащ, однако Вы должны подождать до обеда, пока не придет заведующий.
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Но у меня совсем нет времени!</RadioButton>
+   <RadioButton>Что за чушь? При чем тут заведующий?</RadioButton>
+   <RadioButton>Нет, я просил бы Вас разрешить вопрос сейчас</RadioButton>
+   <RadioButton>Хорошо, как раз пережду дождь</RadioButton>
+   <RadioButton>Опять не вовремя</RadioButton>
+   <RadioButton>Где я могу найти его сейчас?</RadioButton>
+   <RadioButton>Это неважно</RadioButton>
+   <RadioButton>Что поделаешь</RadioButton>
+   <RadioButton>Зайду как-нибудь в другой раз</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2010">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\10.jpg</Image>
+
+  <Label posX="490" posY="20" width="450" height="60">
+   Вы лжец! Вы сами это знаете!
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Это какое-то недоразумение</RadioButton>
+   <RadioButton>Да Вы сами лжец!</RadioButton>
+   <RadioButton>А Вы можете это доказать?</RadioButton>
+   <RadioButton>Хорошо, что Вы напрямую сказали мне об этом</RadioButton>
+   <RadioButton>Простите меня пожалуйста</RadioButton>
+   <RadioButton>Вы ошибаетесь, сейчас я Вам все объясню</RadioButton>
+   <RadioButton>Я не понимаю о чем Вы говорите</RadioButton>
+   <RadioButton>Так сложились обстоятельства</RadioButton>
+   <RadioButton>Со временем все проясниться</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2011">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\11.jpg</Image>
+
+  <Label posX="490" posY="20" width="450" height="60">
+   Простите, пожалуйста, значит нас неправильно соединили.
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Это просто издевательство!</RadioButton>
+   <RadioButton>Да идите Вы ко все чертям!</RadioButton>
+   <RadioButton>Набирайте правильно номер</RadioButton>
+   <RadioButton>Наоборот, спасибо, что разбудили</RadioButton>
+   <RadioButton>Надо было отключить телефон</RadioButton>
+   <RadioButton>Какой номер Вам нужен?</RadioButton>
+   <RadioButton>Да, ничего, пока</RadioButton>
+   <RadioButton>Бывает</RadioButton>
+   <RadioButton>Ничего, переживем</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2012">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\12.jpg</Image>
+
+  <Label posX="490" posY="20" width="450" height="60">
+   Если это не твоя шляпа, то, вероятно, Петров по ошибке взял её, а свою оставил здесь.
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Этого еще не хватало!</RadioButton>
+   <RadioButton>Растяпа твой Петров!</RadioButton>
+   <RadioButton>Ты должен что0нибудь придумать</RadioButton>
+   <RadioButton>Меня устраивает такой обмен</RadioButton>
+   <RadioButton>Зря я не проводил его сам</RadioButton>
+   <RadioButton>Я позвоню ему</RadioButton>
+   <RadioButton>Пустяки</RadioButton>
+   <RadioButton>Действительно, они похожи</RadioButton>
+   <RadioButton>Ничего, потом разберемся</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2013">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\13.jpg</Image>
+  <Label posX="490" posY="20" width="450" height="60">
+   Я не могу сейчас Вас принять, хотя вчера мы об этом и условились.
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Какая досада!</RadioButton>
+   <RadioButton>Пора бы научиться держать слово</RadioButton>
+   <RadioButton>Нет уж, Вам придется выслушать меня</RadioButton>
+   <RadioButton>Хорошо, у меня будет время подготовиться к беседе</RadioButton>
+   <RadioButton>Извините, это я пришел не вовремя</RadioButton>
+   <RadioButton>Хорошо, я подожду</RadioButton>
+   <RadioButton>Ничего страшного</RadioButton>
+   <RadioButton>Что поделаешь, раз так случилось</RadioButton>
+   <RadioButton>Ничего, побеседуем в другой раз</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2014">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\14.jpg</Image>
+
+  <Label posX="490" posY="20" width="450" height="60">
+   Она должна была быть здесь уже 10 минут назад.
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Но у нас совсем нет времени!</RadioButton>
+   <RadioButton>Вечно она опаздывает!</RadioButton>
+   <RadioButton>Что будем делать?</RadioButton>
+   <RadioButton>Это нам хороший урок на будущее</RadioButton>
+   <RadioButton>Я виновата -- не догадалась ей напомнить</RadioButton>
+   <RadioButton>Еще пять минут ждем и уходим</RadioButton>
+   <RadioButton>Да ладно, не переживай</RadioButton>
+   <RadioButton>В дороге всякое случается</RadioButton>
+   <RadioButton>Ничего, все будет нормально</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2015">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\15.jpg</Image>
+  <Label posX="490" posY="20" width="450" height="60">
+   Я понимаю, что подвожу тебя, но приехать не смогу.
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Какая досада!</RadioButton>
+   <RadioButton>Думать надо, когда обещаешь!</RadioButton>
+   <RadioButton>А когда ты сможешь приехать?</RadioButton>
+   <RadioButton>Хорошо, спасибо что предупредил</RadioButton>
+   <RadioButton>Мне не стоило тебя беспокоить</RadioButton>
+   <RadioButton>Я, пожалуй, обойдусь без тебя</RadioButton>
+   <RadioButton>Ничего страшного</RadioButton>
+   <RadioButton>Ну ладно, как знаешь</RadioButton>
+   <RadioButton>Ничего, в другой раз</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2016">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\16.jpg</Image>
+
+  <Label posX="490" posY="20" width="450" height="60">
+   Вы не имели права меня обгонять.
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Да, неприятная вышла ситуация</RadioButton>
+   <RadioButton>Это еще почему?</RadioButton>
+   <RadioButton>Объясните, что Вас не устраивает?</RadioButton>
+   <RadioButton>Нам обоим здорово не повезло</RadioButton>
+   <RadioButton>Действительно, я виноват</RadioButton>
+   <RadioButton>Успокойтесь, я сейчас Вам все объясню</RadioButton>
+   <RadioButton>Стоит ли так волноваться?</RadioButton>
+   <RadioButton>Что поделаешь, раз так получилось</RadioButton>
+   <RadioButton>Не возмущайтесь, все образуется</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2017">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\17.jpg</Image>
+  
+  <Label posX="490" posY="20" width="450" height="60">
+   Как нарочно, теперь ты потерял ключи.
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Как это некстати!</RadioButton>
+   <RadioButton>Это ты всегда их теряешь</RadioButton>
+   <RadioButton>Может, поищещь у себя?</RadioButton>
+   <RadioButton>Наконец-то есть повод сменить старый замок</RadioButton>
+   <RadioButton>Какой я растяпа!</RadioButton>
+   <RadioButton>Попробую залезать в окно</RadioButton>
+   <RadioButton>Не стоит так переживать</RadioButton>
+   <RadioButton>Ну, так получилось</RadioButton>
+   <RadioButton>Сейчас что-нибудь придумаем</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2018">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\18.jpg</Image>
+
+  <Label posX="490" posY="20" width="450" height="60">
+   Мне очень жаль, но мы как раз продали последний экземпляр.
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Обидно</RadioButton>
+   <RadioButton>Всегда у Вас все кончается</RadioButton>
+   <RadioButton>Не могли бы Вы мне как-нибудь помочь?</RadioButton>
+   <RadioButton>Значит деньги целее остануться</RadioButton>
+   <RadioButton>Опять я опоздал</RadioButton>
+   <RadioButton>Поищу в другом месте</RadioButton>
+   <RadioButton>Нет, так нет</RadioButton>
+   <RadioButton>Но Вы же здесь не причем</RadioButton>
+   <RadioButton>Ничего, будет в другой раз</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2019">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\19.jpg</Image>
+
+  <Label posX="490" posY="20" width="450" height="60">
+   Что Вы, собственно, думаете, проезжая мимо школы со скоростью 80 километров в час?
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Но я очень спешу!</RadioButton>
+   <RadioButton>Ничего подобного, я еду медленней</RadioButton>
+   <RadioButton>Вам надо установить здесь указатели</RadioButton>
+   <RadioButton>Спасибо за предупреждение</RadioButton>
+   <RadioButton>Простите, виноват</RadioButton>
+   <RadioButton>Я внимательно слежу за дорогой</RadioButton>
+   <RadioButton>Я не понимаю Вас</RadioButton>
+   <RadioButton>Но здесь же ничего не указано</RadioButton>
+   <RadioButton>Все будет нормально</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2020">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\20.jpg</Image>
+
+  <Label posX="490" posY="20" width="450" height="60">
+   Я бы хотела знать, почему она нас не пригласила.
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Я бы тоже хотел это знать</RadioButton>
+   <RadioButton>Ну и черт с ней!</RadioButton>
+   <RadioButton>А ты как думаешь?</RadioButton>
+   <RadioButton>Зато мы можем побыть вдвлем</RadioButton>
+   <RadioButton>Наверно мы сами виноваты</RadioButton>
+   <RadioButton>Я могу узнать</RadioButton>
+   <RadioButton>Не стоит из-за этого переживать</RadioButton>
+   <RadioButton>Это ее дело</RadioButton>
+   <RadioButton>Это выясниться позже</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2021">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\21.jpg</Image>
+
+  <Label posX="490" posY="20" width="450" height="60">
+   С человеком, которого Вы обидели, вчера случилось несчастье, и он теперь лежит в больнице.
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Боже, какое несчастье!</RadioButton>
+   <RadioButton>Ну и что Вы этим хотите сказать?</RadioButton>
+   <RadioButton>Что Вы предлагаете?</RadioButton>
+   <RadioButton>Хорошо, что Вы мне это сказали</RadioButton>
+   <RadioButton>Наверное, это из-за меня</RadioButton>
+   <RadioButton>Я навещу его</RadioButton>
+   <RadioButton>Ну и что?</RadioButton>
+   <RadioButton>Я здесь не причем</RadioButton>
+   <RadioButton>Надеюсь все обойдется</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2022">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\22.jpg</Image>
+
+  <Label posX="490" posY="20" width="450" height="60">
+   Вы не ушиблись?
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Конечно, ушибся!</RadioButton>
+   <RadioButton>Пошел ты ...</RadioButton>
+   <RadioButton>Помогите, пожалуйста</RadioButton>
+   <RadioButton>Хорошая разминка</RadioButton>
+   <RadioButton>Какой я неловкий!</RadioButton>
+   <RadioButton>Не беспокойтесь, я в порядке</RadioButton>
+   <RadioButton>Ничего, ничего</RadioButton>
+   <RadioButton>Что поделаешь, гололед</RadioButton>
+   <RadioButton>До свадьбы заживет</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2023">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\23.jpg</Image>
+
+  <Label posX="490" posY="20" width="450" height="60">
+   Это тётя Наташа. Она просит нас немного подождать, пока она не придёт и ёщё раз 
+   не пожелает нам доброго пути.
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Как не вовремя!</RadioButton>
+   <RadioButton>Опять она со своими глупостями!</RadioButton>
+   <RadioButton>Скажи, что мы опаздываем</RadioButton>
+   <RadioButton>Хорошо, присядем перед дорогой</RadioButton>
+   <RadioButton>Надо было мне отключить телефон</RadioButton>
+   <RadioButton>Дай я с ней поговорю</RadioButton>
+   <RadioButton>Это ваши проблемы</RadioButton>
+   <RadioButton>Что поделаешь, придется ждать</RadioButton>
+   <RadioButton>Встретим ее по дороге</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="2024">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\24.jpg</Image>
+
+  <Label posX="490" posY="20" width="450" height="60">
+   Вот Ваша газета. Мне очень жаль, что ребенок её разорвал.
+  </Label>
+
+  <ButtonGroup posX="540" posY="100" width="500" height="25">
+   <RadioButton>Досадно</RadioButton>
+   <RadioButton>Смотреть надо за детьми!</RadioButton>
+   <RadioButton>Нет уж, найдите мне целую</RadioButton>
+   <RadioButton>Любознательный, должно быть, малыш</RadioButton>
+   <RadioButton>Мне надо было сначала прочесть её самому</RadioButton>
+   <RadioButton>Я подклею её</RadioButton>
+   <RadioButton>Пустяки</RadioButton>
+   <RadioButton>Ребёнок есть ребёнок</RadioButton>
+   <RadioButton>Переживу</RadioButton>
+  </ButtonGroup>
+
+  <Button command="select" posX="580" posY="400" width="250" height="20">Выбрать</Button>
+ </Screen>
+
+
+ <Screen number="3001">
+  <Image posX="10" posY="10" width="454" height="530">.\\ProgramData\\End.jpg</Image>
+
+  <Label posX="490" posY="20" width="450" height="100">
+   Тест окончен. Составлена карта Вашей личности, которая будет обработана психологом.
+  </Label>
+
+  <Button command="exitTest" posX="580" posY="400" width="250" height="20">Выход</Button>  
+ </Screen>
+</GUI>

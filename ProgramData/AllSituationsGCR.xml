@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<AllSituationsGCR>
+<Situation number="1" type="barrier">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E</Answer>
+ <Answer number="3" add="">e</Answer>
+ <Answer number="4" add="">M'</Answer>
+ <Answer number="5" add="">I</Answer>
+ <Answer number="6" add="">i</Answer>
+ <Answer number="7" add="">M</Answer>
+ <Answer number="8" add="">M</Answer>
+ <Answer number="9" add="">m</Answer>
+</Situation>
+
+<Situation number="2" type="accusation">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E</Answer>
+ <Answer number="3" add="">e</Answer>
+ <Answer number="4" add="I">E</Answer>
+ <Answer number="5" add="">I</Answer>
+ <Answer number="6" add="">i</Answer>
+ <Answer number="7" add="">M</Answer>
+ <Answer number="8" add="">M</Answer>
+ <Answer number="9" add="">m</Answer>
+</Situation>
+
+<Situation number="3" type="barrier">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E</Answer>
+ <Answer number="3" add="">e</Answer>
+ <Answer number="4" add="">M'</Answer>
+ <Answer number="5" add="">I</Answer>
+ <Answer number="6" add="">i</Answer>
+ <Answer number="7" add="">m</Answer>
+ <Answer number="8" add="">M</Answer>
+ <Answer number="9" add="">I'</Answer>
+</Situation>
+
+<Situation number="4" type="barrier">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E</Answer>
+ <Answer number="3" add="">I</Answer>
+ <Answer number="4" add="">I'</Answer>
+ <Answer number="5" add="">M'</Answer>
+ <Answer number="6" add="">i</Answer>
+ <Answer number="7" add="">M</Answer>
+ <Answer number="8" add="">m</Answer>
+ <Answer number="9" add="">i</Answer>
+</Situation>
+
+<Situation number="5" type="accusation">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E</Answer>
+ <Answer number="3" add="">m</Answer>
+ <Answer number="4" add="">I</Answer>
+ <Answer number="5" add="">I_</Answer>
+ <Answer number="6" add="">i</Answer>
+ <Answer number="7" add="">m</Answer>
+ <Answer number="8" add="">M</Answer>
+ <Answer number="9" add="">i</Answer>
+</Situation>
+
+<Situation number="6" type="barrier">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E</Answer>
+ <Answer number="3" add="">e</Answer>
+ <Answer number="4" add="">I'</Answer>
+ <Answer number="5" add="">i</Answer>
+ <Answer number="6" add="">i</Answer>
+ <Answer number="7" add="">M</Answer>
+ <Answer number="8" add="">M</Answer>
+ <Answer number="9" add="">m</Answer>
+</Situation>
+
+<Situation number="7" type="accusation">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E</Answer>
+ <Answer number="3" add="">e</Answer>
+ <Answer number="4" add="i">I_</Answer>
+ <Answer number="5" add="">I_</Answer>
+ <Answer number="6" add="">i</Answer>
+ <Answer number="7" add="">M</Answer>
+ <Answer number="8" add="">M</Answer>
+ <Answer number="9" add="">m</Answer>
+</Situation>
+
+<Situation number="8" type="barrier">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E</Answer>
+ <Answer number="3" add="">e</Answer>
+ <Answer number="4" add="">I</Answer>
+ <Answer number="5" add="">I</Answer>
+ <Answer number="6" add="">i</Answer>
+ <Answer number="7" add="">M</Answer>
+ <Answer number="8" add="">M</Answer>
+ <Answer number="9" add="">M'</Answer>
+</Situation>
+
+<Situation number="9" type="barrier">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E'</Answer>
+ <Answer number="3" add="">e</Answer>
+ <Answer number="4" add="">i</Answer>
+ <Answer number="5" add="">E'</Answer>
+ <Answer number="6" add="">i</Answer>
+ <Answer number="7" add="">M</Answer>
+ <Answer number="8" add="">m</Answer>
+ <Answer number="9" add="">M'</Answer>
+</Situation>
+
+<Situation number="10" type="accusation">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E</Answer>
+ <Answer number="3" add="">e</Answer>
+ <Answer number="4" add="">I</Answer>
+ <Answer number="5" add="i">I_</Answer>
+ <Answer number="6" add="">i</Answer>
+ <Answer number="7" add="">I'</Answer>
+ <Answer number="8" add="">M'</Answer>
+ <Answer number="9" add="">m</Answer>
+</Situation>
+
+
+<Situation number="11" type="barrier">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E</Answer>
+ <Answer number="3" add="">e</Answer>
+ <Answer number="4" add="">I</Answer>
+ <Answer number="5" add="">I</Answer>
+ <Answer number="6" add="">I'</Answer>
+ <Answer number="7" add="">M'</Answer>
+ <Answer number="8" add="">M</Answer>
+ <Answer number="9" add="">m</Answer>
+</Situation>
+
+<Situation number="12" type="barrier">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E</Answer>
+ <Answer number="3" add="">e</Answer>
+ <Answer number="4" add="">M'</Answer>
+ <Answer number="5" add="">I'</Answer>
+ <Answer number="6" add="">i</Answer>
+ <Answer number="7" add="">M</Answer>
+ <Answer number="8" add="">m</Answer>
+ <Answer number="9" add="">m</Answer>
+</Situation>
+
+<Situation number="13" type="barrier">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E</Answer>
+ <Answer number="3" add="">e</Answer>
+ <Answer number="4" add="">i</Answer>
+ <Answer number="5" add="">M'</Answer>
+ <Answer number="6" add="">i</Answer>
+ <Answer number="7" add="">M</Answer>
+ <Answer number="8" add="">M'</Answer>
+ <Answer number="9" add="">m</Answer>
+</Situation>
+
+<Situation number="14" type="barrier">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E</Answer>
+ <Answer number="3" add="">m</Answer>
+ <Answer number="4" add="">I'</Answer>
+ <Answer number="5" add="">i</Answer>
+ <Answer number="6" add="">I'</Answer>
+ <Answer number="7" add="">M'</Answer>
+ <Answer number="8" add="">M</Answer>
+ <Answer number="9" add="">m</Answer>
+</Situation>
+
+<Situation number="15" type="barrier">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E</Answer>
+ <Answer number="3" add="">I'</Answer>
+ <Answer number="4" add="">M'</Answer>
+ <Answer number="5" add="">I</Answer>
+ <Answer number="6" add="">i</Answer>
+ <Answer number="7" add="">M</Answer>
+ <Answer number="8" add="">M</Answer>
+ <Answer number="9" add="">m</Answer>
+</Situation>
+
+<Situation number="16" type="accusation">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E'</Answer>
+ <Answer number="3" add="">i</Answer>
+ <Answer number="4" add="">M</Answer>
+ <Answer number="5" add="">i</Answer>
+ <Answer number="6" add="">i</Answer>
+ <Answer number="7" add="">M</Answer>
+ <Answer number="8" add="">M'</Answer>
+ <Answer number="9" add="">m</Answer>
+</Situation>
+
+<Situation number="17" type="accusation">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E</Answer>
+ <Answer number="3" add="">i</Answer>
+ <Answer number="4" add="">m</Answer>
+ <Answer number="5" add="">I</Answer>
+ <Answer number="6" add="">i</Answer>
+ <Answer number="7" add="">M'</Answer>
+ <Answer number="8" add="">M'</Answer>
+ <Answer number="9" add="">i</Answer>
+</Situation>
+
+<Situation number="18" type="barrier">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E</Answer>
+ <Answer number="3" add="">e</Answer>
+ <Answer number="4" add="">I'</Answer>
+ <Answer number="5" add="">I</Answer>
+ <Answer number="6" add="">i</Answer>
+ <Answer number="7" add="">M</Answer>
+ <Answer number="8" add="">M'</Answer>
+ <Answer number="9" add="">m</Answer>
+</Situation>
+
+<Situation number="19" type="accusation">
+ <Answer number="1" add="">I'</Answer>
+ <Answer number="2" add="">E_</Answer>
+ <Answer number="3" add="">e</Answer>
+ <Answer number="4" add="">i</Answer>
+ <Answer number="5" add="">i</Answer>
+ <Answer number="6" add="">I</Answer>
+ <Answer number="7" add="">M</Answer>
+ <Answer number="8" add="">E'</Answer>
+ <Answer number="9" add="">m</Answer>
+</Situation>
+
+<Situation number="20" type="barrier">
+ <Answer number="1" add="">I'</Answer>
+ <Answer number="2" add="">E</Answer>
+ <Answer number="3" add="">e</Answer>
+ <Answer number="4" add="">I'</Answer>
+ <Answer number="5" add="">I</Answer>
+ <Answer number="6" add="">i</Answer>
+ <Answer number="7" add="">M'</Answer>
+ <Answer number="8" add="">M</Answer>
+ <Answer number="9" add="">m</Answer>
+</Situation>
+
+<Situation number="21" type="accusation">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E</Answer>
+ <Answer number="3" add="">e</Answer>
+ <Answer number="4" add="">i</Answer>
+ <Answer number="5" add="">I</Answer>
+ <Answer number="6" add="">i</Answer>
+ <Answer number="7" add="">M</Answer>
+ <Answer number="8" add="">E_</Answer>
+ <Answer number="9" add="">M</Answer>
+</Situation>
+
+<Situation number="22" type="barrier">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E</Answer>
+ <Answer number="3" add="">e</Answer>
+ <Answer number="4" add="">I'</Answer>
+ <Answer number="5" add="">I'</Answer>
+ <Answer number="6" add="">M'</Answer>
+ <Answer number="7" add="">M</Answer>
+ <Answer number="8" add="">M</Answer>
+ <Answer number="9" add="">m</Answer>
+</Situation>
+
+<Situation number="23" type="barrier">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E</Answer>
+ <Answer number="3" add="">e</Answer>
+ <Answer number="4" add="">m</Answer>
+ <Answer number="5" add="">I</Answer>
+ <Answer number="6" add="">i</Answer>
+ <Answer number="7" add="">i</Answer>
+ <Answer number="8" add="">m</Answer>
+ <Answer number="9" add="">m</Answer>
+</Situation>
+
+<Situation number="24" type="barrier">
+ <Answer number="1" add="">E'</Answer>
+ <Answer number="2" add="">E</Answer>
+ <Answer number="3" add="">e</Answer>
+ <Answer number="4" add="">I_</Answer>
+ <Answer number="5" add="">I</Answer>
+ <Answer number="6" add="">I</Answer>
+ <Answer number="7" add="">M'</Answer>
+ <Answer number="8" add="">M</Answer>
+ <Answer number="9" add="">m</Answer>
+</Situation>
+
+</AllSituationsGCR>
